@@ -55,7 +55,7 @@
   "main": "src/assets/scss/paper-kit.scss",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/paper-kit-react.git"
+    "url": "git+https://github.com/vacaramin/Persona.git"
   },
   "keywords": [
     "react",
@@ -77,8 +77,5 @@
   ],
   "author": "Creative Tim",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/paper-kit-react/issues"
-  },
-  "homepage": "https://demos.creative-tim.com/paper-kit-react/#/index"
+  "homepage": "https://vacaramin.me"
 }
