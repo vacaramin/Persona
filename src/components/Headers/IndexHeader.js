@@ -23,9 +23,10 @@ function IndexHeader() {
             <div className="title-brand">
             <img
                   alt="..."
-                  className="img-circle img-no-padding img-responsive"
+                  className="img-circle img-responsive img-raised vacara img-w-200"
                   src={require("assets/img/faces/vacaramin.png")}
                 />
+
               <h1 className="presentation-title">Full-Stack Engineer</h1>
               <div className="fog-low">
                 <img alt="..." src={require("assets/img/fog-low.png")} />
