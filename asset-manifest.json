@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.76b63e1b.css",
-    "main.js": "/static/js/main.f4496bc4.js",
+    "main.js": "/static/js/main.bacbd702.js",
     "static/media/clouds.png": "/static/media/clouds.3c700c1313cc1cd3d3c5.png",
     "static/media/antoine-barres.jpg": "/static/media/antoine-barres.bc3299c239c25e5bf937.jpg",
     "static/media/login-image.jpg": "/static/media/login-image.21e8ba3f9dca3c346851.jpg",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.76b63e1b.css",
-    "static/js/main.f4496bc4.js"
+    "static/js/main.bacbd702.js"
   ]
 }
