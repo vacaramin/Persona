@@ -57,6 +57,7 @@ function IndexNavbar() {
             target="_blank"
             title="Coded By Waqar Amin"
             style={{ fontSize: "15px" }}
+            href="/Persona"
           >
             @Vacaramin
           </NavbarBrand>
