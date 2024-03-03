@@ -37,7 +37,7 @@ function IndexHeader() {
             </div>
                 
             <h2 className="presentation-subtitle text-center">
-              Code Craftsman | Problem Solver | Team Player
+              Code Craftsman | Problem Solver | Innovator
             </h2>
           </Container>
         </div>
