@@ -28,8 +28,9 @@ function IndexHeader() {
                   src={require("assets/img/faces/vacaramin.png")}
                 />
 
-              <h1 className="presentation-title" style={{zIndex:10}} >Full-Stack Engineer</h1>
-             
+              <h1 className="presentation-title" style={{ position:"relative", bottom:"20px" }} >Full-Stack Engineer</h1>
+              
+                           
               <div className="fog-low"  >
                 <img alt="..." src={require("assets/img/fog-low.png")} style={{zIndex:"10px"}} />
               </div>
@@ -38,7 +39,7 @@ function IndexHeader() {
               </div>
             </div>
                 
-            <h2 className="presentation-subtitle text-center">
+            <h2 className="presentation-subtitle text-center" style={{ position:"relative", bottom:"10px" }}>
               Code Craftsman | Software Designer |  Devops Engineer
             </h2>
           </Container>
