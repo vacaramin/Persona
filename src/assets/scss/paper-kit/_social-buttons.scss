@@ -69,3 +69,11 @@
         border-color: darken(#767676, 5%) !important;
     }
 }
+.btn-upwork-bg{
+    background-color: #767676 !important;
+    border-color: #767676 !important;
+    &:hover{
+        background-color: darken(#767676, 5%) !important;
+        border-color: darken(#767676, 5%) !important;
+    }
+}
