@@ -125,7 +125,6 @@ function IndexNavbar() {
             </NavItem>
             <NavItem>
                 <Button color = "info" style={{ marginTop: "18px" }} onClick={hireMe}>Hire Me ?</Button>
-                <p className="d-lg-none">Hire Me?</p>
             </NavItem>
           </Nav>
         </Collapse>

@@ -28,9 +28,9 @@ function IndexHeader() {
                   src={require("assets/img/faces/vacaramin.png")}
                 />
 
-              <h1 className="presentation-title" >Full-Stack Engineer</h1>
+              <h1 className="presentation-title" style={{zIndex:10}} >Full-Stack Engineer</h1>
              
-              <div className="fog-low">
+              <div className="fog-low"style={{zIndex:9}}>
                 <img alt="..." src={require("assets/img/fog-low.png")} />
               </div>
               <div className="fog-low right">

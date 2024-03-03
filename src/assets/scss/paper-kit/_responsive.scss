@@ -117,7 +117,16 @@
 
     .navbar-nav {
         margin: 1px -15px;
-
+        .nav-item {
+            .nav-link {
+              display: flex;
+              align-items: center; /* Align items vertically */
+              padding: 15px 0 !important; /* Adjust padding as needed */
+            }
+            .nav-link .fa {
+              margin-right: 10px; /* Adjust margin as needed */
+            }
+        }
         .open .dropdown-menu > li {
             & > a{
                 padding: 15px 15px 5px 50px;
@@ -247,6 +256,14 @@
             & .nav.nav-pills{
                 display: block !important;
                 .nav-item{
+                    .nav-link {
+                        display: flex;
+                        align-items: center; /* Align items vertically */
+                        padding: 15px 0 !important; /* Adjust padding as needed */
+                      }
+                      .nav-link .fa {
+                        margin-right: 10px; /* Adjust margin as needed */
+                      }
                     &:first-child .nav-link{
                         border-radius: 12px 12px 0 0 !important;
                         margin-left: -1px;
@@ -661,6 +678,14 @@
             @include transition (0.33s, cubic-bezier(0.685, 0.0473, 0.346, 1));
 
             .navbar-nav .nav-item{
+                .nav-link {
+                    display: flex;
+                    align-items: center; /* Align items vertically */
+                    padding: 15px 0 !important; /* Adjust padding as needed */
+                  }
+                  .nav-link .fa {
+                    margin-right: 10px; /* Adjust margin as needed */
+                  }
                 &:last-child {
                     border-bottom: 0;
                 }
@@ -726,6 +751,7 @@
         }
         .navbar-collapse,
         .navbar-nav{
+            
             &:before,
             &:after{
                 display: table;
