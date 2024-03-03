@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Persona/static/css/main.6c354c2f.css",
-    "main.js": "/Persona/static/js/main.297a5aa6.js",
+    "main.css": "/Persona/static/css/main.e817a91a.css",
+    "main.js": "/Persona/static/js/main.584f07ca.js",
     "static/media/vacaramin.png": "/Persona/static/media/vacaramin.5502b2ec5e481e2bfb38.png",
     "static/media/clouds.png": "/Persona/static/media/clouds.3c700c1313cc1cd3d3c5.png",
     "static/media/antoine-barres.jpg": "/Persona/static/media/antoine-barres.bc3299c239c25e5bf937.jpg",
@@ -13,7 +13,7 @@
     "index.html": "/Persona/index.html"
   },
   "entrypoints": [
-    "static/css/main.6c354c2f.css",
-    "static/js/main.297a5aa6.js"
+    "static/css/main.e817a91a.css",
+    "static/js/main.584f07ca.js"
   ]
 }
