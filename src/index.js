@@ -14,7 +14,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/Persona" element={<Index />} />
-      <Route path="*" element={<Navigate to="/Persona" replace />} />
+      <Route path="/*" element={<Navigate to="/Persona" replace />} />
     </Routes>
   </BrowserRouter>
 );
