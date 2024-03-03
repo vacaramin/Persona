@@ -24,11 +24,12 @@ function IndexHeader() {
             <img
                   alt="..."
                   className="img-circle img-responsive img-raised title-image"
-                  width={"45%"}
+                  width={"40%"}
                   src={require("assets/img/faces/vacaramin.png")}
                 />
 
-              <h1 className="presentation-title text-center" >Full-Stack Engineer</h1>
+              <h1 className="presentation-title" >Full-Stack Engineer</h1>
+             
               <div className="fog-low">
                 <img alt="..." src={require("assets/img/fog-low.png")} />
               </div>

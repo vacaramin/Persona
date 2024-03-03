@@ -369,7 +369,7 @@
             margin-bottom: -35px;
         }
         .presentation-title{
-            font-size: 5em;
+            font-size: 3rem;
         }
         .presentation-subtitle{
             margin-top: 40px;
@@ -742,7 +742,7 @@
                 @include transform-translate-x(-230px);
             }
             .navbar-translate{
-                @include transform-translate-x(-230px);
+                @include transform-translate-x(-200px);
             }
         }
 
@@ -856,7 +856,7 @@
         }
     }
     .presentation-page .presentation-title {
-        font-size: 4em;
+        font-size: 2rem;
     }
     .presentation-page .title-brand .type {
         font-size: 12px;
@@ -938,13 +938,14 @@
 @media (max-width: 1200px){
     .presentation-page{
         .presentation-title{
-            font-size: 7em;
+            font-size: 2em;
         }
         .title-brand{
             max-width: 650px;
         }
     }
 }
+
 
 @media (max-width: 1200px){
     .presentation .section-images .image img{

@@ -17,7 +17,7 @@ function DemoFooter() {
                   href="https://www.creative-tim.com?ref=pkr-footer"
                   target="_blank"
                 >
-                  Something
+                  Hire me
                 </a>
               </li>
               <li>
