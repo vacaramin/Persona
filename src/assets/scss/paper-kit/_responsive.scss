@@ -192,6 +192,7 @@
     }
     .navbar-fixed-top {
         -webkit-backface-visibility: hidden;
+        backface-visibility:hidden;
     }
 
     .social-line .btn{
@@ -888,9 +889,6 @@
             text-align: center;
         }
     }
-    .presentation-page .presentation-title {
-        font-size: 2rem;
-    }
     .presentation-page .title-brand .type {
         font-size: 12px;
         padding: 4px 7px;
@@ -901,6 +899,9 @@
         right: 2px;
     }
     .presentation-page{
+        .presentation-title {
+            font-size: 1rem;
+        }
         .section-cards{
             .codrops-header{
                 .description{
@@ -989,6 +990,7 @@
 
 
 @media screen and (max-width: 374px){
+
     .footer.footer-big{
         .copyright{
             .pull-left, .pull-right{
@@ -1010,6 +1012,9 @@
         }
     }
     .presentation-page{
+        .presentation-title {
+            font-size: 0.5rem;
+        }
         .section-content{
             .image-container{
                 .area-img{
