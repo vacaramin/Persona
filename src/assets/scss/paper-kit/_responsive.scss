@@ -1,5 +1,3 @@
-/*          Changes for small display      */
-
 @media (max-width: 767px){
     #cd-vertical-nav {
         display: none !important;
@@ -121,7 +119,7 @@
             .nav-link {
               display: flex;
               align-items: center; /* Align items vertically */
-              padding: 15px 0 !important; /* Adjust padding as needed */
+              padding: 10px 0 !important; /* Adjust padding as needed */
             }
             .nav-link .fa {
               margin-right: 10px; /* Adjust margin as needed */
@@ -386,7 +384,7 @@
             margin-bottom: -35px;
         }
         .presentation-title{
-            font-size: 3rem;
+            font-size: 5rem;
         }
         .presentation-subtitle{
             margin-top: 40px;
@@ -461,7 +459,16 @@
         padding-right: 0px;
         padding-left: 40px;
         padding-top: 15px;
-
+        .nav-item{
+            .nav-link {
+                display: flex;
+                align-items: center; /* Align items vertically */
+                padding: 5px 0 !important; /* Adjust padding as needed */
+              }
+              .nav-link .fa {
+                margin-right: 10px; /* Adjust margin as needed */
+              }
+            }
         @include transform-translate-x(230px);
         @include transition (0.33s, cubic-bezier(0.685, 0.0473, 0.346, 1));
         ul {
@@ -964,7 +971,7 @@
 @media (max-width: 1200px){
     .presentation-page{
         .presentation-title{
-            font-size: 2em;
+            font-size: 5em;
         }
         .title-brand{
             max-width: 650px;
