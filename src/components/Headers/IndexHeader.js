@@ -30,11 +30,11 @@ function IndexHeader() {
 
               <h1 className="presentation-title" style={{zIndex:10}} >Full-Stack Engineer</h1>
              
-              <div className="fog-low"style={{zIndex:9}}>
-                <img alt="..." src={require("assets/img/fog-low.png")} />
+              <div className="fog-low"  >
+                <img alt="..." src={require("assets/img/fog-low.png")} style={{zIndex:"10px"}} />
               </div>
-              <div className="fog-low right">
-                <img alt="..." src={require("assets/img/fog-low.png")} />
+              <div className="fog-low right" style={{zIndex:"10px"}} >
+                <img alt="..." src={require("assets/img/fog-low.png")} style={{zIndex:"10px"}} />
               </div>
             </div>
                 
