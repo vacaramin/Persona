@@ -51,7 +51,7 @@ function IndexNavbar() {
   return (
     <Navbar className={classnames("fixed-top", navbarColor, "mt-n3")} expand="lg">
       <Container>
-        <div className="navbar-translate">
+        <div className="navbar-translate">      
           <NavbarBrand
             data-placement="bottom"
             target="_blank"
@@ -61,6 +61,7 @@ function IndexNavbar() {
           >
             @Vacaramin
           </NavbarBrand>
+          
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {
@@ -109,7 +110,7 @@ function IndexNavbar() {
                 target="_blank"
                 title="Follow me on Reddit"
               >
-                <i className="fa fa-reddit" style={{ fontSize: "30px" }} />
+                <i className="fa fa-reddit-alien" style={{ fontSize: "30px" }} />
                 <p className="d-lg-none">Reddit</p>
               </NavLink>
             </NavItem>
@@ -120,7 +121,7 @@ function IndexNavbar() {
                 target="_blank"
                 title="Follow me on Twitter"
               >
-                <i className="fa fa-twitter-square" style={{ fontSize: "30px" }} />
+                <i className="fa fa-twitter" style={{ fontSize: "30px" }} />
                 <p className="d-lg-none">Twitter</p>
               </NavLink>
             </NavItem>
