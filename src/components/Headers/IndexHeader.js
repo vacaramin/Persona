@@ -1,7 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import { Container} from "reactstrap";
+import { useSelector } from 'react-redux'
 
 function IndexHeader() {
+  const darkmode = useSelector((state) => state.darkmode.value)
   const backgroundRef = useRef(null);
 
   useEffect(() => {
@@ -26,7 +28,8 @@ function IndexHeader() {
         className="page-header section-dark"
         ref={backgroundRef}
         style={{
-          backgroundImage: "url(" + require("assets/img/antoine-barres.jpg") + ")"
+          backgroundColor: "#000",
+          backgroundImage: darkmode ? "url(" + require("assets/img/antoine-barres.jpg") + ")" : "none"
         }}
       >
         <div className="filter" />
