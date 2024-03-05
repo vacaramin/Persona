@@ -18,13 +18,16 @@ import {
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
-
+  const [darkmode, setDarkmode] = React.useState(true);
   const toggleNavbarCollapse = () => {
     setNavbarCollapse(!navbarCollapse);
     document.documentElement.classList.toggle("nav-open");
   };
   const hireMe = () => {
     window.open("https://www.upwork.com/freelancers/~011c4b9d085baee533")
+  }
+  const darkmodeToggle = () => {
+    setDarkmode(!darkmode);
   }
 
   React.useEffect(() => {
@@ -51,7 +54,7 @@ function IndexNavbar() {
   return (
     <Navbar className={classnames("fixed-top", navbarColor, "mt-n3")} expand="lg">
       <Container>
-        <div className="navbar-translate">      
+        <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
             target="_blank"
@@ -61,7 +64,7 @@ function IndexNavbar() {
           >
             @Vacaramin
           </NavbarBrand>
-          
+
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {
@@ -80,6 +83,17 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
+            <NavItem>
+              <NavLink>
+              <input type="checkbox" className="checkbox" id="checkbox" defaultChecked onChange={darkmodeToggle}/>
+                <label htmlFor="checkbox" className="checkboxLabel">
+                  <i class="fa fa-moon"/>
+                  <i class="fa fa-sun"/>
+                  <span class="ball"/>
+                </label>
+                </NavLink>
+            </NavItem>
+
             <NavItem>
               <NavLink
                 data-placement="bottom"
@@ -125,10 +139,11 @@ function IndexNavbar() {
                 <p className="d-lg-none">Twitter</p>
               </NavLink>
             </NavItem>
-            
+
             <NavItem>
               <Button color="info" style={{ marginTop: "18px" }} onClick={hireMe}>Hire Me ?</Button>
             </NavItem>
+
           </Nav>
         </Collapse>
       </Container>
