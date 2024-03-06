@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8821bbc.css",
+    "main.css": "/static/css/main.d0358685.css",
     "main.js": "/static/js/main.38bc1b54.js",
     "static/media/vacaramin.png": "/static/media/vacaramin.5502b2ec5e481e2bfb38.png",
     "static/media/clouds.png": "/static/media/clouds.3c700c1313cc1cd3d3c5.png",
@@ -13,7 +13,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.f8821bbc.css",
+    "static/css/main.d0358685.css",
     "static/js/main.38bc1b54.js"
   ]
 }
