@@ -451,6 +451,10 @@
     }
 }
 @media screen and (max-width: 991px){
+    .presentation-title{
+        position: relative;
+        bottom: 20px;
+    }
     .fa-sun {
         color: #f39c12;
         margin-left: 5%;
@@ -678,6 +682,10 @@
 
 
 @media screen and (min-width:991px){
+    .presentation-title{
+        position: relative;
+        bottom: 20px;
+    }
     .burger-menu{
         .navbar-collapse {
             position: fixed;
@@ -835,6 +843,10 @@
     .lightbox .modal-dialog{
         width: 960px;
     }
+    .presentation-title{
+        position: relative;
+        bottom: 20px;
+    }
 }
 @media screen and (min-width: 767px){
     .section-sections{
@@ -849,8 +861,16 @@
         margin-top: 150px;
       }
     }
+    .presentation-title{
+        position: relative;
+        bottom: 20px;
+    }
 }
 @media (max-width:1023px) and (min-width:767px) {
+    .presentation-title{
+        position: relative;
+        bottom: 20px;
+    }
     .presentation-page{
         .section-content{
             .image-container{
@@ -1027,7 +1047,7 @@
         }
     }
     .presentation-title {
-        font-size: 3rem;
+        font-size: 290%;
     }
     .presentation-page{
         .presentation-title {
