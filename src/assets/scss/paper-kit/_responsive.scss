@@ -843,10 +843,7 @@
     .lightbox .modal-dialog{
         width: 960px;
     }
-    .presentation-title{
-        position: relative;
-        bottom: 20px;
-    }
+    
 }
 @media screen and (min-width: 767px){
     .section-sections{
@@ -910,6 +907,10 @@
     }
 }
 @media (max-width: 500px){
+    .presentation-title {
+        font-size: 3rem;
+        bottom: 0px;
+    }
     .presentation-page .section-header .card{
         min-height: 230px;
     }
@@ -932,9 +933,7 @@
         margin-top: 20px;
         right: 2px;
     }
-    .presentation-title {
-        font-size: 3rem;
-    }
+    
     .presentation-page{
         
         .section-cards{
@@ -1006,9 +1005,6 @@
 }
 @media (max-width: 1200px){
     .presentation-page{
-        .presentation-title{
-            font-size: 5em;
-        }
         .title-brand{
             max-width: 650px;
         }
@@ -1048,11 +1044,9 @@
     }
     .presentation-title {
         font-size: 290%;
+        bottom: 0px;
     }
     .presentation-page{
-        .presentation-title {
-            font-size: 0.5rem;
-        }
         .section-content{
             .image-container{
                 .area-img{
