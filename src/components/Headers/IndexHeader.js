@@ -29,7 +29,8 @@ function IndexHeader() {
         ref={backgroundRef}
         style={{
           backgroundColor: "#000",
-          backgroundImage: darkmode ? "url(" + require("assets/img/antoine-barres.jpg") + ")" : "none"
+          backgroundImage: darkmode ? "url(" + require("assets/img/antoine-barres.jpg") + ")" : "none",
+          height: "10em",
         }}
       >
         <div className="filter" />
