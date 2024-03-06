@@ -912,10 +912,11 @@
         margin-top: 20px;
         right: 2px;
     }
+    .presentation-title {
+        font-size: 3rem;
+    }
     .presentation-page{
-        .presentation-title {
-            font-size: 1rem;
-        }
+        
         .section-cards{
             .codrops-header{
                 .description{
@@ -1024,6 +1025,9 @@
         .header-wrapper{
             height: auto !important;
         }
+    }
+    .presentation-title {
+        font-size: 3rem;
     }
     .presentation-page{
         .presentation-title {
