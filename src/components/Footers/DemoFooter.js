@@ -5,7 +5,7 @@ import React from "react";
 // reactstrap components
 import { Row, Container } from "reactstrap";
 
-function DemoFooter() {
+function IndexFooter() {
   return (
     <footer className="footer footer-black footer-white">
       <Container>
@@ -17,15 +17,15 @@ function DemoFooter() {
                   href="https://www.creative-tim.com?ref=pkr-footer"
                   target="_blank"
                 >
-                  Hire me
+                  Play a Game?
                 </a>
               </li>
               <li>
                 <a
-                  href="http://blog.creative-tim.com/?ref=pkr-footer"
+                  href="https://www.chess.com/member/vacaramin"
                   target="_blank"
                 >
-                  Some Item
+                  Chess.com?
                 </a>
               </li>
               <li>
@@ -33,7 +33,7 @@ function DemoFooter() {
                   href="https://www.creative-tim.com/license?ref=pkr-footer"
                   target="_blank"
                 >
-                  Menu Item
+                  I'm a Chess Player
                 </a>
               </li>
             </ul>
@@ -50,4 +50,4 @@ function DemoFooter() {
   );
 }
 
-export default DemoFooter;
+export default IndexFooter;
