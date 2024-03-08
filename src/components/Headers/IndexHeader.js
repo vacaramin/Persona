@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { Container} from "reactstrap";
+import { Container } from "reactstrap";
 import { useSelector } from 'react-redux'
 
 function IndexHeader() {
@@ -29,7 +29,7 @@ function IndexHeader() {
         ref={backgroundRef}
         style={{
           backgroundColor: "#000",
-          backgroundImage: darkmode ? "url(" + require("assets/img/antoine-barres.jpg") + ")" : "none",
+          backgroundImage: darkmode ? "url(" + require("assets/img/login-image.jpg") + ")" : "none",
           height: "10em",
         }}
       >
@@ -47,10 +47,10 @@ function IndexHeader() {
               <h1 className="presentation-title" >Full-Stack Engineer</h1>
 
               <div className="fog-low">
-                <img alt="..." src={require("assets/img/fog-low.png")} style={{ zIndex: "10px" }} />
+                {darkmode ? <img alt="..." src={require("assets/img/fog-low.png")} style={{ zIndex: "10px" }} /> : ""}
               </div>
               <div className="fog-low right" style={{ zIndex: "10px" }}>
-                <img alt="..." src={require("assets/img/fog-low.png")} style={{ zIndex: "10px" }} />
+                {darkmode ? < img alt="..." src={darkmode ? require("assets/img/fog-low.png") : ""} style={{ zIndex: "10px" }} />:""}
               </div>
             </div>
 

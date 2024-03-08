@@ -22,7 +22,6 @@
     const [navbarCollapse, setNavbarCollapse] = React.useState(false);
     const dispatch = useDispatch()
     const darkmode = useSelector((state) => state.darkmode.value)
-    
     const toggleNavbarCollapse = () => {
       setNavbarCollapse(!navbarCollapse);
       document.documentElement.classList.toggle("nav-open");
