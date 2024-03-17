@@ -5,7 +5,7 @@ import React from "react";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
-import IndexFooter from "components/Footers/DemoFooter";
+
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -19,7 +19,7 @@ function Index() {
     <>
       <IndexNavbar />
       <IndexHeader />
-     <IndexFooter/>
+     {/* <IndexFooter/> */}
      </>
   );
 }

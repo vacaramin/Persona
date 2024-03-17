@@ -3,7 +3,6 @@ import React from 'react'
 export default function AboutMe() {
   return (
     <div>
-      <Container>
             <div className="title-brand">
               <img
                 alt="..."
@@ -36,7 +35,6 @@ export default function AboutMe() {
             <h2 className="presentation-subtitle text-center" style={{ position: "relative", bottom: "10px", transform: `scale(${1 - scrollY * 0.002})` }}>
               Code Craftsman | Software Designer | Devops Engineer
             </h2>
-          </Container>
     </div>
   )
 }
