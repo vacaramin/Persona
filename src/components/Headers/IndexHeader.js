@@ -87,19 +87,7 @@ function IndexHeader() {
         />
       </div>
 
-      <div style={{ height: "2000px"}}>
-        {/* <MainSection/> */}
-        <h1
-                className="presentation-title"
-                style={{
-                  opacity:1,
-                  position:"inherit",
-                  top:"9px"
-                }}
-              >
-                Website Under Construction
-              </h1>
-      </div>
+      
       </div>
     </>
   );
